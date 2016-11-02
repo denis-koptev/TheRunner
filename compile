@@ -1,0 +1,3 @@
+reset
+g++ -c -O2 -Wall -Wextra *.cpp -std=c++11
+g++ *.o -o runnergame -lsfml-graphics -lsfml-window -lsfml-system -std=c++11
